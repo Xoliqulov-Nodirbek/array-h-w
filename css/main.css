@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+.pokemonts__wrapper{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: khaki;
+    margin: 0 auto;
+}
+
+.pokemonts__wrapper:not(:first-child){
+    margin-top: 10px;
+}
+
+.pokemonts__img{
+    width: 100%;
+}
+
+.pokemonts__title{
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.pokemonts__type{
+    position: relative;
+    text-align: center;
+    margin: 20px;
+    font-family: 'League Spartan';
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.pokemonts__type::before{
+    position: absolute;
+    content: "type :";
+    left: 20px;
+    top: 0;
+}
+
+.pokemonts__weaknesses{
+    text-align: center;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'League Spartan';
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.pokemonts__weaknesses::before{
+    position: absolute;
+    content: "weak :";
+    left: 20px;
+    top: 0;
+}
