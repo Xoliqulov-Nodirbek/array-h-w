@@ -138,8 +138,6 @@ for (i = 0; i < pokemonts.length; i++) {
     pokemontsWrapper.appendChild(pokemontsWeaknesses);
     wrapper.appendChild(pokemontsWrapper);
 
-
-
 }
 
 
