@@ -77,6 +77,7 @@ const pokemonts = [
     }
 ];
 
+
 const wrapper = document.querySelector(".wrapper");
 
 for (i = 0; i < pokemonts.length; i++) {
